@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<body>
+<title>Document</title>
+<style type="text/css">
+    *{
+        margin:0;
+        padding:0;
+    }
+    body{
+        background-image:url(colors.png);
+        background-size:cover;
+        font-family:sans-serif;
+        margin-top: 40px;
+
+    }
+    .button
+{
+  width: 150px;
+  text-align: center;
+  margin:0 auto;
+}
+
+  table ,  td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table.center {
+  margin-left:auto; 
+  margin-right:auto;
+}
+}
+    
+</style>
+<body>
+<h1 align="center" >Registration Form</h1>
+<table class="center" border="1" cellspacing="0" height="500 px" width="550px">
+ <form  action="/action_page.php"  method="get" id="nameform">
+<div id="name">
+    <tr>
+    <td><label for="fname"><strong> First name:</strong></label></td>
+</tr>
+<tr>
+    <td><input type="text" id="fname" name="fname"><br><br></td>
+</tr>
+<tr>
+    <td><label for="lname"><strong>Last name:</strong></label></td>
+</tr>
+<tr>
+    <td><input type="text" id="lname" name="lname"><br></td>
+</tr>
+<tr>
+</div><br>
+<div id="Company">
+<td><label for="Cname"><strong>Company:</strong></label></td>
+</tr>
+<tr>
+   <td> <input type="text"  name="cname"><br><br></td>
+</tr>
+<tr>
+    <div id="username">
+        <td><label for="usname"><strong>Username:</strong></label></td>
+    </tr>
+    <tr>
+        <td><input type="text" id="usrname" name="usname"></td>
+    </tr>
+    </div><br>
+    <tr>
+    <td><label for="Ename"><strong>Email:</strong></label></td>
+</tr>
+<tr>
+<td>><input  type="text" name="Email"></td>
+</tr> <br>
+<tr>
+<div id="Password">
+    <td><label for="psname"><strong>Password:</strong></label></td>
+</tr>
+<tr>
+    <td><input type="text" id="pscode" name="psname"></td>
+</div><br>
+</tr>
+
+<tr>
+<div id="Phone No">
+<td><label for="pname"><strong>Phone no</strong> </label></td>
+</tr>
+<tr>
+<td><input type="text" name="No"></td>
+</tr>
+<tr>
+</div><br>
+<div id="Subject">
+<td><label for="Sname"><strong> Subject:</strong></label></td>
+</tr>
+<tr>
+<td><select class="option" name="Subject"></td>
+</tr>
+    </div><br>
+    <tr>
+    <div id="Option">
+<td><option disabled="disabled" selected="selected">--choose option</option></td>
+</tr>
+<tr>
+
+<td><option>Java</option></td>
+</tr>
+<tr>
+<td><option>HTML</option></td>
+</tr>
+<tr>
+<td><option>C++</option></td>
+</tr>
+<tr>
+<td></select></td>
+</tr>
+</div><br>
+<tr>
+
+<td><h2>Are you begineer in Coding?</h2></td>
+</tr>
+<tr>
+
+<td><input type="radio" id="Yes" name="Beginner" value="Yes"></td>
+</tr>
+<tr>
+
+<td><label for="Yes">Yes</label><br></td>
+</tr>
+<span class="checkmark"></span>
+<tr>
+<td><input type="radio" id="No" name="Beginner" value="No"></td>
+</tr>
+<tr>
+<td><label for="no">No</label><br></td>
+</tr>
+<tr>
+
+<td><input class="button" type="submit" value="Submit" /></td>
+</tr>
+
+</table>
+</form>
+
+
+</body>
+</html>
